@@ -29,7 +29,7 @@ void SystemCoreClockUpdate (void);
 
 void SysTick_Handler(void){
 	
-	counter++;							// Counts 1ms timeTicks
+	counter++; // Counts 1ms timeTicks
 	
 	// thiet lap tan so nhay
 	if((counter % RED_F) == 0)
@@ -123,3 +123,4 @@ int main(){
 //		}
 	}
 }
+// test changes
